@@ -1,0 +1,14 @@
+{
+  "name": "google-dialogflow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Glenn Wedin",
+  "license": "MIT",
+  "dependencies": {
+    "actions-on-google": "^2.6.0"
+  }
+}
