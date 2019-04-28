@@ -2,6 +2,10 @@
 
 All the functions in this project has been set up using each cloud providers default cli. An alternative to doing this is using something like the Serverless framework. In this experiment it made the most sense to do it the best documented and tested way possible.
 
+1. [AWS Lambda](#aws-lambda)
+2. [Azure Functions](#azure-functions)
+3. [Google Cloud Functions](#google-cloud-functions)
+
 ## AWS Lambda
 
 **Requirements:**
