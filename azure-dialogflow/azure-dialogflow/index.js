@@ -10,3 +10,25 @@ app.intent('Welcome', conv => {
 });
 
 module.exports = (context, request) => app(context.req, context.res);
+
+// USING dialogflow-fulfillment
+/*
+const { WebhookClient } = require('dialogflow-fulfillment');
+
+module.exports = async (context, request) => {
+    const app = new WebhookClient({
+        request: context.req,
+        response: context.res
+    });
+
+    let intentMap = new Map();
+    intentMap.set('Default', a => {
+        a.add('Cant help you here');
+    });
+    intentMap.set('Welcome', a => {
+        a.add('How are you?');
+    });
+    app.handleRequest(intentMap);
+    return context.res;
+};
+*/
